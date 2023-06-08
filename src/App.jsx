@@ -6,9 +6,9 @@ function App() {
   const [isDarkMode, setIsDarkMode] = useState(() => false);
 
   return (
-    <>
+    <div>
       <DarkModeToggle onChange={setIsDarkMode} checked={isDarkMode} size={80} />
-    </>
+    </div>
   );
 }
 
